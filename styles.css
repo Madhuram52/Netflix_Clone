@@ -1,0 +1,49 @@
+body {
+  background-image: url("images/netflix-img/images/header-image-2.png");
+  font-family: 'Netflix Font', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.Header-home {
+  font-size: 55px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight:600;
+  color: white;
+}
+
+.btn {
+  height: 50px;
+  width: 250px;
+  padding:0;
+  margin-bottom: 200px;
+  border: none;
+  /* justify-content: center; */
+  background-color: #ff1900df;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background-color: #d01904df;
+color:white;
+}
+
+.logoimage {
+  width: 200px;
+  margin-left: 60px;
+  margin-top: 10px;
+
+}
